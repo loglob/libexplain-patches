@@ -9,7 +9,7 @@ As a result, the patched library does not pass all tests.
 Run `make patch` to download and patch version 1.4 of libexplain.
 
 To apply the patches to a different version,
-move it to `./libexplain-1.4` relative to project root
+move it to `./libexplain` relative to project root
 and run `make patch`
 
 Afterwards, do the normal build process with `./configure && make`
